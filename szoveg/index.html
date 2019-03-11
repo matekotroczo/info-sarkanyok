@@ -1,0 +1,70 @@
+<html>
+<!-- A HTML dokumentumok mindig html nyitótaggal kezdődnek és a zárótaggal végződnek. -->
+<head>
+<!-- A HTML dokumentumok fejléc adatai a <head></head> tagok közé kerülnek. -->
+<title>Valami akármi cím, amit én találtam ki</title>
+<!-- A <style></style> tagok közé írjuk a stílusokat. -->
+<style>
+html {
+	background: url('https://librarius.hu/wp-content/uploads/2015/02/termeszet.jpg') no-repeat fixed center;
+}
+body {
+	width: 50%;
+	background: lightgreen;
+	color: purple;
+	border: 30px solid yellow;
+	border-right: 10px dashed blue;
+	border-left: 20px dashed purple;
+	border-bottom: 50px dotted red;
+	border-radius: 50px 100px 0px 20px;
+	padding: 15px;
+	margin: auto;
+	opacity: 0.75;
+}
+h3 {
+	color: orange;
+}
+</style>
+
+</head>
+<body>
+<!-- A <body></body> tagok közé kerül a dokumentum "teste". -->
+<!-- A doksit készítette: Kotroczó Máté. -->
+
+<h1>Szöveg formázása weben</h1>
+
+<h2>Karakter formázás</h2>
+
+<h3>Íme egy jobbra rendezett bekezdés:</h3>
+
+<p style="text-align: right;">A karakterek méretét, alakját, jellegét és a sorban lévő többi betűhöz viszonyított helyét formázással lehet meghatározni. Fontnak nevezzük a betűk méretét, alakját, vastagságát, azaz megjelenésének leírását. A betűk méretét tipográfiai pontban határozzuk meg. Egy inch (25,4 mm) 72 ponttal egyenlő. Ennek megfelelően egy pont 0,376 mm. <span style="color: white; background: green;">A betűk alakját a font típusa írja le.</span> A nyomtatók egyrészt saját fontkészletekkel rendelkeznek, mellyel karakteres üzemmódban tudnak nyomtatni. Ezeket raszterfontoknak nevezzük. Másrészt grafikus üzemmódban tetszőleges fontkészlettel tudnak nyomtatni. Ekkor az egyes betűk alakjának geometriai információit tároljuk. Ez vektorfontnak nevezzük. A TrueType fontok is ilyenek.<p>
+
+<h3>Íme egy középre renezett bekezdés:</h3>
+<p style="text-align: center;">Egy adott fontnak különböző változatai vannak: dőlt (kurzív), vastag (félkövér), aláhúzott, duplán aláhúzott, áthúzott, kiskapitális, kapitális, felső index, alsó index. A változatok kombinálhatók.</p>
+
+A legfontosabb formázási módok:
+<ul>
+	<li><b>félkövér</b></li>
+	<li><i>dőlt</i></li>
+	<li><u>aláhúzott</u></li>
+	<li><u>aláhúzott 2</u></li>
+</ul>
+<ol>
+	<li><b>félkövér</b></li>
+	<li><i>dőlt</i></li>
+	<li><u>aláhúzott</u></li>
+	<li><u>aláhúzott 2</u></li>
+</ol>
+
+<h2>Stíluslapok</h2>
+<img src="iniciale.jpg" style="width: 100px;" align="left" />
+A stílus formázási jellemzők gyűjteménye. Stílusok alkalmazásával gyorsan megváltoztathatjuk a dokumentumban lévő szöveg, táblázatok és listák megjelenését. Stílus használatakor egy lépésben több formázási beállítást alkalmazunk.
+
+Ha például a címet 16 pontos Arial betűtípusúra és középre zártra szeretnénk formázni, ezt a három lépést egyetlen lépéssel, a Cím stílus alkalmazásával helyettesíthetjük.
+
+<!-- A <footer></footer> tagok közé írjuk a láblécbe, alulra szánt információkat. -->
+<footer>
+<p>
+	Forrás: <a href="https://hu.wikipedia.org/wiki/Szövegszerkesztés">Wikipédia</a>
+</p>
+</footer>

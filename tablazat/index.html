@@ -1,0 +1,85 @@
+<html>
+<head>
+	<style>
+	body {
+		margin: 20px;
+	}
+	table {
+		width: 100%;
+		background: lightgrey;
+		margin-bottom: 20px;
+	}
+	th, td {
+		border: 2px solid white;
+		padding: 4px;
+	}
+	#szinkor {
+		width: 100%;
+		border: 12px dashed orange;
+		border-radius: 40px;
+	}
+	</style>
+</head>
+<body>
+	<h1>Mit tudunk a színekről?</h1>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="6">Hideg és meleg színek</th>
+			</tr>
+			<tr>
+				<th>Szín</th>
+				<th>Jelentés</th>
+				<th>Kódnév</th>
+				<th>Kód (rgb)</th>
+				<th>Kód (hexa)</th>
+				<th>Hőmérséklet</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr style="background: rgb(0, 128, 0); color: white;">
+				<td>zöld</td>
+				<td>Shrek</td>
+				<td>green</td>
+				<td>rgb(0, 128, 0)</td>
+				<td>#008000</td>
+				<td rowspan="3">hideg</td>
+			</tr>
+			<tr style="background: lime;">
+				<td>világoszöld</td>
+				<td>gyík</td>
+				<td>lime</td>
+				<td>rgb(0, 255, 0)</td>
+				<td>#00FF00</td>
+			</tr>
+			<tr style="background: rgb(0, 0, 255); color: white;">
+				<td>kék</td>
+				<td>tenger</td>
+				<td>blue</td>
+				<td>rgb(0, 0, 255)</td>
+				<td>#0000FF</td>
+			</tr>
+			<tr style="background: yellow;">
+				<td>sárga</td>
+				<td>pitypang</td>
+				<td>yellow</td>
+				<td>rgb(255, 255, 0)</td>
+				<td>#FFFF00</td>
+				<td rowspan="2">meleg</td>
+			</tr>
+			<tr style="background: #F00; color: white;">
+				<td>piros</td>
+				<td>katica</td>
+				<td>red</td>
+				<td>rgb(255, 0, 0)</td>
+				<td>#F00</td>
+			</tr>
+		</tbody>
+	</table>
+	<img id="szinkor" src="https://i.pinimg.com/474x/08/f5/04/08f50496da798f15fd4e3a29a75c4552--meleg-colours.jpg" />
+	<p>
+		Forrás:
+		<a target="_blank" href="https://www.w3schools.com/colors/colors_names.asp">W3Schools kutyafül</a>
+	</p>
+</body>
+</html>
